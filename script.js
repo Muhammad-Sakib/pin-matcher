@@ -7,6 +7,9 @@ function generatePin(){
     document.getElementById("submitButton").style.display = "inline-block";
     document.getElementById("giveMessage").style.display = "none";
     document.getElementById("tryLeft").innerHTML = 3;
+    //hiding pin matching messages
+    document.getElementById("pinMatched").style.display = "none";
+    document.getElementById("pinDidntMatch").style.display = "none";
 }
 
 // getting input using button and showing it on input section
